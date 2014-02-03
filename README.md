@@ -19,4 +19,4 @@ Libraries Used
 + [Facebook Android SDK](https://developers.facebook.com/docs/android/)
 
 
-This app was developed primarily by (Damian Wieczorek)[https://github.com/damianw], (Ben Oztalay)[https://github.com/boztalay], and (Mike Huang)[https://github.com/coolbho3k].
+This app was developed primarily by [Damian Wieczorek](https://github.com/damianw), [Ben Oztalay](https://github.com/boztalay), and [Mike Huang](https://github.com/coolbho3k).
