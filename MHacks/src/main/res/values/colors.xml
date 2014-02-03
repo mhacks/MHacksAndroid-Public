@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="translucent_gray">#20888888</color>
+    <color name="translucent_black">#40000000</color>
+    <color name="dark_translucent_black">#CC000000</color>
+    <color name="card_background">#EEEEEE</color>
+</resources>

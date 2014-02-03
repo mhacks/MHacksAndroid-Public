@@ -1,0 +1,37 @@
+# Built application files
+*.apk
+*.ap_
+
+*.DS_Store
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+proguard/
+MHacks/build
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Misc
+.idea/misc.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.gradle/.DS_Store
+
+# Gradle task artifacts
+
+.gradle/1.9/taskArtifacts/
+
+# Facebook library
+libraries/facebook/build/
+
+# Keystore
+release_key.jks
+

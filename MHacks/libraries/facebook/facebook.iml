@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.path="$MODULE_DIR$/../../../libraries/facebook" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="bundleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugJava" />
+        <option name="ASSEMBLE_TEST_TASK_NAME" value="assembleDebugTest" />
+        <option name="SOURCE_GEN_TASK_NAME" value="generateDebugSources" />
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../libraries/facebook/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+        <option name="LIBRARY_PROJECT" value="true" />
+      </configuration>
+    </facet>
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":libraries:facebook" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/../../../libraries/facebook/build/classes/debug" />
+    <output-test url="file://$MODULE_DIR$/build/classes/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../libraries/facebook">
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/r/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/aidl/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/rs/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/res/rs/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/r/test/debug" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/aidl/test/debug" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/buildConfig/test/debug" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/rs/test/debug" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/res/rs/test/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/debug/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/debug/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/debug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/debug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/main/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/main/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/instrumentTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/instrumentTest/assets" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/instrumentTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/instrumentTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/instrumentTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/instrumentTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/instrumentTest/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/apk" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/res" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/tmp" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="support-v4-13.0.0" level="project" />
+  </component>
+</module>
+
