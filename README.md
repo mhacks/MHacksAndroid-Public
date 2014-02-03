@@ -11,7 +11,8 @@ This app was created with [Android Studio](http://developer.android.com/sdk/inst
 Libraries Used
 --------------
 
-+ [FirebaseListAdapter](https://github.com/firebase/AndroidChat/blob/master/src/com/firebase/androidchat/FirebaseListAdapter.java), from [AndroidChat](https://github.com/firebase/AndroidChat)</li>[Firebase Java SDK](https://www.firebase.com/docs/java-quickstart.html)
++ [FirebaseListAdapter](https://github.com/firebase/AndroidChat/blob/master/src/com/firebase/androidchat/FirebaseListAdapter.java), from [AndroidChat](https://github.com/firebase/AndroidChat)</li>
++ [Firebase Java SDK](https://www.firebase.com/docs/java-quickstart.html)
 + [Parse Java SDK](https://www.parse.com)
 + [ActionBar-PullToRefresh](https://github.com/chrisbanes/ActionBar-PullToRefresh)
 + [Google Play Services API](http://developer.android.com/google/play-services/setup.html)
