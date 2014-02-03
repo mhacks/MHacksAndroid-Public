@@ -11,14 +11,11 @@ This app was created with [Android Studio](http://developer.android.com/sdk/inst
 Libraries Used
 --------------
 
-<ol>
-    <li>[FirebaseListAdapter](https://github.com/firebase/AndroidChat/blob/master/src/com/firebase/androidchat/FirebaseListAdapter.java), from [AndroidChat](https://github.com/firebase/AndroidChat)</li>
-    <li>[Firebase Java SDK](https://www.firebase.com/docs/java-quickstart.html)</li>
-    <li>[Parse Java SDK](https://www.parse.com)</li>
-    <li>[ActionBar-PullToRefresh](https://github.com/chrisbanes/ActionBar-PullToRefresh)</li>
-    <li>[Google Play Services API](http://developer.android.com/google/play-services/setup.html)</li>
-    <li>[Facebook Android SDK](https://developers.facebook.com/docs/android/)</li>
-</ol>
++ [FirebaseListAdapter](https://github.com/firebase/AndroidChat/blob/master/src/com/firebase/androidchat/FirebaseListAdapter.java), from [AndroidChat](https://github.com/firebase/AndroidChat)</li>[Firebase Java SDK](https://www.firebase.com/docs/java-quickstart.html)
++ [Parse Java SDK](https://www.parse.com)
++ [ActionBar-PullToRefresh](https://github.com/chrisbanes/ActionBar-PullToRefresh)
++ [Google Play Services API](http://developer.android.com/google/play-services/setup.html)
++ [Facebook Android SDK](https://developers.facebook.com/docs/android/)
 
 
 This app was developed primarily by (Damian Wieczorek)[https://github.com/damianw], (Ben Oztalay)[https://github.com/boztalay], and (Mike Huang)[https://github.com/coolbho3k].
