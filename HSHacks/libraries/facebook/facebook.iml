@@ -23,7 +23,7 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/../../../libraries/facebook/build/classes/debug" />
-    <output-test url="file://$MODULE_DIR$/build/classes/test" />
+    <output-test url="file://$MODULE_DIR$/../../../MHacks/libraries/facebook/build/classes/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../libraries/facebook">
       <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/r/debug" isTestSource="false" generated="true" />

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MHacks/MHacks.iml" filepath="$PROJECT_DIR$/MHacks/MHacks.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MHacksAndroid.iml" filepath="$PROJECT_DIR$/MHacksAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HSHacks/HSHacks.iml" filepath="$PROJECT_DIR$/HSHacks/HSHacks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HSHacksAndroid.iml" filepath="$PROJECT_DIR$/HSHacksAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/MHacksAndroid-Public.iml" filepath="$PROJECT_DIR$/MHacksAndroid-Public.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MHacks/libraries/facebook/facebook.iml" filepath="$PROJECT_DIR$/MHacks/libraries/facebook/facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HSHacks/libraries/facebook/facebook.iml" filepath="$PROJECT_DIR$/HSHacks/libraries/facebook/facebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/hshacks-android.iml" filepath="$PROJECT_DIR$/hshacks-android.iml" />
     </modules>
   </component>
