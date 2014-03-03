@@ -15,7 +15,7 @@
         android:paddingTop="4dp"
         android:background="@color/custom_background_color">
 
-        <com.mhacks.android.views.ProgressWheel
+        <com.hshacks.android.views.ProgressWheel
             android:id="@+id/countdown_spinner"
             android:layout_width="48dp"
             android:layout_height="48dp"

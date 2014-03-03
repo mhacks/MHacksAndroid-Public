@@ -6,21 +6,21 @@
                 android:layout_height="?android:attr/actionBarSize"
                 android:background="@color/actionbar_dark_bg">
 
-    <com.mhacks.android.pong.PongGamePieceView
+    <com.hshacks.android.pong.PongGamePieceView
         android:id="@+id/pong_left_paddle"
         android:layout_width="2dp"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true" />
 
-    <com.mhacks.android.pong.PongGamePieceView
+    <com.hshacks.android.pong.PongGamePieceView
         android:id="@+id/pong_right_paddle"
         android:layout_width="2dp"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true" />
 
-    <com.mhacks.android.pong.PongGamePieceView
+    <com.hshacks.android.pong.PongGamePieceView
         android:id="@+id/pong_ball"
         android:layout_width="3dp"
         android:layout_height="3dp"

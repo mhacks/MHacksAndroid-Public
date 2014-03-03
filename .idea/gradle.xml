@@ -3,13 +3,16 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="$USER_HOME$" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="disableWrapperSourceDistributionNotification" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/MHacks" />
+            <option value="$PROJECT_DIR$/libraries" />
+            <option value="$PROJECT_DIR$/libraries/facebook" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>
