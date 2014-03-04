@@ -20,7 +20,6 @@ import com.hshacks.android.R;
 import com.hshacks.android.awards.AwardsFragment;
 import com.hshacks.android.chat.ChatFragment;
 import com.hshacks.android.concierge.ConciergeFragment;
-import com.hshacks.android.eventmap.EventMapFragment;
 import com.hshacks.android.food.FoodRequester;
 import com.hshacks.android.login.LoginActivity;
 import com.hshacks.android.navigation.NavigationDrawerFragment;
@@ -65,7 +64,6 @@ public class MainActivity extends Activity implements NavigationDrawerFragment.N
         mFragments.add(new NavigationDrawerItem(new ChatFragment(), getString(R.string.title_chat), R.drawable.sofa));
         mFragments.add(new NavigationDrawerItem(new ScheduleFragment(), getString(R.string.title_schedule), R.drawable.calendar));
         mFragments.add(new NavigationDrawerItem(new AwardsFragment(), getString(R.string.title_awards), R.drawable.trophy));
-        mFragments.add(new NavigationDrawerItem(new EventMapFragment(), getString(R.string.title_map), R.drawable.map));
 
         setContentView(R.layout.activity_main);
 

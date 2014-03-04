@@ -13,15 +13,16 @@ import com.parse.PushService;
 /**
  * Created by damian on 11/15/13.
  */
-public class MHacksApp extends Application {
+public class HSHacksApp extends Application {
     public void onCreate(){
         super.onCreate();
         // Initialize Parse
         Parse.initialize(this, getString(R.string.parse_app_id), getString(R.string.parse_client_key));
         PushService.setDefaultPushCallback(this, MainActivity.class);
         ParseInstallation.getCurrentInstallation().saveInBackground();
-        ParseFacebookUtils.initialize("PUTYOUROWNAPPIDHERE");
-        ParseTwitterUtils.initialize("PUTYOUROWN", "KEYSHERE");
+        ParseFacebookUtils.initialize("1820657384739898");
+        ParseTwitterUtils.initialize("2B9DRbkkcASZKvlgeBjfRA", "LxAimU0RNkHDRSGdhGPLvkFEGZeKvYFPTAQbSuCeI");
+
         // end Parse initialization
 
         // Set up default roles

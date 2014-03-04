@@ -29,7 +29,7 @@ import com.firebase.client.ValueEventListener;
 import com.hshacks.android.R;
 
 public class ChatFragment extends ListFragment {
-    private static final String FIREBASE_URL = "https://mhacks-chat.firebaseio.com";
+    private static final String FIREBASE_URL = "https://hshacks.firebaseio.com";
     private static final int MAX_VISIBLE_CHATS = 50;
 
     private String username;

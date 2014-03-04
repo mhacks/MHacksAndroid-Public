@@ -1,5 +1,5 @@
 <resources>
-    <string name="title_activity_login">MHacks</string>
+    <string name="title_activity_login">HSHacks</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -14,7 +14,7 @@
     <string name="action_forgot_password">Recover lost password</string>
 
     <string name="login_progress_signing_in">Signing in&#8230;</string>
-    <string name="login_welcome_initial">Welcome to MHacks.</string>
+    <string name="login_welcome_initial">Welcome to HSHacks.</string>
     <string name="login_welcome_post">Have a good time,&#160;</string>
 
     <string name="error_invalid_email">This email address is invalid</string>

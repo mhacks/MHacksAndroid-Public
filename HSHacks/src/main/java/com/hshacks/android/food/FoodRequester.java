@@ -63,7 +63,6 @@ public class FoodRequester {
                     progressDialog.cancel();
 
                     processFoodDrinkQueryResponse(parseObjects);
-                    showRequestDialogForType(requestType);
                 }
             }
         });
@@ -87,32 +86,4 @@ public class FoodRequester {
         }
     }
 
-    private void showRequestDialogForType(int requestType) {
-        String dialogTitle;
-        ArrayList<String> dialogOptions;
-
-        if (requestType == FOOD_REQUEST) {
-            dialogTitle = parentActivity.getString(R.string.select_food);
-            dialogOptions = foodItems;
-        } else {
-            dialogTitle = parentActivity.getString(R.string.select_drink);
-            dialogOptions = drankItems;
-        }
-
-        final RequestListFragment dialog = new RequestListFragment(dialogTitle, dialogOptions);
-        ListView.OnItemClickListener listener = new ListView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                String text = String.valueOf(((TextView) view).getText());
-                String tweetUrl = "https://twitter.com/intent/tweet?text=";
-                tweetUrl += String.format(parentActivity.getString(R.string.request_tweet), text);
-                Uri uri = Uri.parse(tweetUrl);
-                parentActivity.startActivity(new Intent(Intent.ACTION_VIEW, uri));
-                dialog.dismiss();
-            }
-        };
-
-        dialog.setOnItemClickListener(listener);
-        dialog.show(parentActivity.getFragmentManager(), "drink_dialog");
-    }
 }

@@ -32,7 +32,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
         android:alwaysRetainTaskState="true"
-        android:name="com.hshacks.android.MHacksApp">
+        android:name=".HSHacksApp">
 
         <meta-data
             android:name="com.google.android.gms.version"
