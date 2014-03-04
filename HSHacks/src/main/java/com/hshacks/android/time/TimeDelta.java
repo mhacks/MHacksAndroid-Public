@@ -63,9 +63,9 @@ public class TimeDelta {
         return (double)(current.getTime() - start.getTime())/(double)(end.getTime() - start.getTime());
     }
 
-    public static Date offsetDateFromUTCToEST(Date date) {
+    public static Date offsetDateFromUTCToPST(Date date) {
         long dateTime = date.getTime();
-        dateTime += 5 * 60 * 60 * 1000;
+        dateTime += 8 * 60 * 60 * 1000;
         Date offsetDate = new Date();
         offsetDate.setTime(dateTime);
         return offsetDate;

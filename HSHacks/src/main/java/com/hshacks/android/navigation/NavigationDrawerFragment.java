@@ -84,9 +84,9 @@ public class NavigationDrawerFragment extends Fragment {
     public NavigationDrawerFragment() {
         mItems = new ArrayList();
         Calendar cal = Calendar.getInstance();
-        cal.set(2014, 2, 7, 8, 0);
+        cal.set(2014, 2, 7, 1, 0);
         START_DATE = cal.getTime();
-        cal.set(2014, 2, 8, 17, 0);
+        cal.set(2014, 2, 8, 10, 0);
         END_DATE = cal.getTime();
     }
 

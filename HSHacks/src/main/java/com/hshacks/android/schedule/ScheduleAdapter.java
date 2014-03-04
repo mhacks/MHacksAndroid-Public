@@ -103,7 +103,7 @@ public class ScheduleAdapter extends ArrayAdapter<ScheduleAdapter.Item> implemen
             TextView eventTime = (TextView) cellView.findViewById(R.id.event_time);
             SimpleDateFormat dateFormat = (SimpleDateFormat) SimpleDateFormat.getInstance();
             dateFormat.applyPattern("h:mm aaa");
-            Date offsetDate = TimeDelta.offsetDateFromUTCToEST(event.getDate("time"));
+            Date offsetDate = TimeDelta.offsetDateFromUTCToPST(event.getDate("time"));
             eventTime.setText(dateFormat.format(offsetDate));
 
             TextView eventDescription = (TextView) cellView.findViewById(R.id.event_description);
@@ -151,11 +151,11 @@ public class ScheduleAdapter extends ArrayAdapter<ScheduleAdapter.Item> implemen
         public Item(ParseObject content) {
             this.type = ITEM;
             this.content = content;
-            this.time = TimeDelta.offsetDateFromUTCToEST(content.getDate("time"));
+            this.time = TimeDelta.offsetDateFromUTCToPST(content.getDate("time"));
         }
 
         public Item(Date time) {
-            this.time = TimeDelta.offsetDateFromUTCToEST(time);
+            this.time = TimeDelta.offsetDateFromUTCToPST(time);
             this.type = SECTION;
             this.content = null;
         }
