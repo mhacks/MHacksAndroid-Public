@@ -44,20 +44,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textStyle="bold"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:paddingTop="2dp"
-            android:id="@+id/award_company"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearance"
             android:text="@string/select_drink"
-            android:paddingTop="2dp"
-            android:layout_below="@id/award_prize"
+            android:paddingTop="1dp"
             android:id="@+id/award_description"/>
 
     </RelativeLayout>

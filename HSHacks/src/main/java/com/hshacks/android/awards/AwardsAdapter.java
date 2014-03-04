@@ -48,11 +48,9 @@ public class AwardsAdapter extends ArrayAdapter<ParseObject> {
         TextView awardTitle = (TextView) awardCellView.findViewById(R.id.award_title);
         awardTitle.setText(mAwards.get(position).getString("title"));
 
-        TextView awardCompany = (TextView) awardCellView.findViewById(R.id.award_company);
-        awardCompany.setText(mAwards.get(position).getString("company"));
 
         TextView awardBody = (TextView) awardCellView.findViewById(R.id.award_description);
-        awardBody.setText(mAwards.get(position).getString("description"));
+        awardBody.setText(mAwards.get(position).getString("details"));
 
         TextView awardPrize = (TextView) awardCellView.findViewById(R.id.award_prize);
         awardPrize.setText(mAwards.get(position).getString("award"));

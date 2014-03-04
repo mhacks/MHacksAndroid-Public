@@ -79,7 +79,7 @@ public class NewsFragment extends Fragment implements OnRefreshListener {
 
     @Override
     public void onRefreshStarted(View view) {
-        ParseQuery<ParseObject> query = ParseQuery.getQuery("Announcement");
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("Announcements");
         query.orderByDescending("createdAt");
         query.findInBackground(new FindCallback<ParseObject>() {
             @Override

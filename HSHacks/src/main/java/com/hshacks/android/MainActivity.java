@@ -20,7 +20,6 @@ import com.hshacks.android.R;
 import com.hshacks.android.awards.AwardsFragment;
 import com.hshacks.android.chat.ChatFragment;
 import com.hshacks.android.concierge.ConciergeFragment;
-import com.hshacks.android.food.FoodRequester;
 import com.hshacks.android.login.LoginActivity;
 import com.hshacks.android.navigation.NavigationDrawerFragment;
 import com.hshacks.android.navigation.NavigationDrawerItem;
@@ -44,8 +43,6 @@ public class MainActivity extends Activity implements NavigationDrawerFragment.N
     private ArrayList<NavigationDrawerItem> mFragments;
 
     private ParseUser mUser;
-
-    private FoodRequester foodRequester;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,7 +73,6 @@ public class MainActivity extends Activity implements NavigationDrawerFragment.N
         mNavigationDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.END);
         mNavigationDrawerFragment.setUp(R.id.navigation_drawer, mNavigationDrawerLayout);
 
-        foodRequester = new FoodRequester(this);
     }
 
     @Override
@@ -150,14 +146,7 @@ public class MainActivity extends Activity implements NavigationDrawerFragment.N
                 startActivity(intent);
                 return true;
             }
-            case R.id.action_drink: {
-                foodRequester.showDrinkRequestDialog();
-                return true;
-            }
-            case R.id.action_food: {
-                foodRequester.showFoodRequestDialog();
-                return true;
-            }
+
             case R.id.menu_item_share: {
                 Intent intent = new Intent();
                 intent.setType("text/plain");
