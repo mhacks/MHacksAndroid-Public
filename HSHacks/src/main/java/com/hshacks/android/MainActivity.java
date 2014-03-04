@@ -97,7 +97,7 @@ public class MainActivity extends Activity implements NavigationDrawerFragment.N
     }
 
     public void setUpTitleFont() {
-        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/Gotham-BlackItalic.otf");
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/OpenSans-Regular.otf");
 
         try {
             Integer titleId = (Integer) Class.forName("com.android.internal.R$id").getField("action_bar_title").get(null);

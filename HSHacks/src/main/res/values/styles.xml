@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--Colors-->
-    <color name="custom_theme_color">#FEC10E</color>
+    <color name="custom_theme_color">#2582B9</color>
     <color name="custom_background_color">#3D3D3D</color>
     <color name="announcement_cell_color">#E6E6E6</color>
     <color name="light_bg_color">#E6E6E6</color>
     <color name="darker_bg_color">#B6B6B6</color>
     <color name="login_button_fb">#FF3B5998</color>
     <color name="login_button_fb_selected">#AA3B5998</color>
-    <color name="login_button_twitter">#FF00ACED</color>
+    <color name="login_button_twitter">#4099FF</color>
     <color name="login_button_twitter_selected">#AA00ACED</color>
-    <color name="login_button_guest">#CC000000</color>
-    <color name="login_button_guest_selected">#88000000</color>
+    <color name="login_button_guest">#FF683F</color>
+    <color name="login_button_guest_selected">#ff7752</color>
     <color name="ios_background_color">#EBEBF1</color>
     <color name="actionbar_dark_bg">#222222</color>
 
