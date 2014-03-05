@@ -20,7 +20,7 @@ public class HSHacksApp extends Application {
         Parse.initialize(this, getString(R.string.parse_app_id), getString(R.string.parse_client_key));
         PushService.setDefaultPushCallback(this, MainActivity.class);
         ParseInstallation.getCurrentInstallation().saveInBackground();
-        ParseFacebookUtils.initialize("1820657384739898");
+        ParseFacebookUtils.initialize("256148041228646");
         ParseTwitterUtils.initialize("2B9DRbkkcASZKvlgeBjfRA", "LxAimU0RNkHDRSGdhGPLvkFEGZeKvYFPTAQbSuCeI");
 
         // end Parse initialization

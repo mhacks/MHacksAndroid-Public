@@ -7,9 +7,10 @@
 
     <ImageView
         android:id="@+id/navigation_item_icon"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
         android:layout_marginRight="15dp"/>
 
     <TextView

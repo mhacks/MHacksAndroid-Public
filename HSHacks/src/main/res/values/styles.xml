@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--Colors-->
-    <color name="custom_theme_color">#2582B9</color>
+    <color name="custom_theme_color">#ff3b86ff</color>
     <color name="custom_background_color">#3D3D3D</color>
     <color name="announcement_cell_color">#E6E6E6</color>
     <color name="light_bg_color">#E6E6E6</color>

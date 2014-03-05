@@ -84,7 +84,7 @@ public class AwardsFragment extends Fragment implements OnRefreshListener {
     @Override
     public void onRefreshStarted(View view) {
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Awards");
-        query.orderByDescending("importance");
+        query.orderByAscending("ID");
         query.findInBackground(new FindCallback<ParseObject>() {
             @Override
             public void done(List<ParseObject> parseObjects, ParseException e) {

@@ -32,6 +32,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
         android:alwaysRetainTaskState="true"
+        android:debuggable="false"
         android:name=".HSHacksApp">
 
         <meta-data
