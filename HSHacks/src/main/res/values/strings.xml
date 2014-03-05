@@ -9,13 +9,12 @@
     <string name="title_chat">Chat</string>
     <string name="title_awards">Awards</string>
     <string name="title_concierge">Concierge</string>
-    <string name="title_map">Map</string>
     <string name="action_settings">Settings</string>
     <string name="action_logout">Log Out</string>
     <string name="title_activity_register">RegisterActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Open navigation drawer</string>
-    <string name="share_string">\@highschoolhacks is #stacked!</string>
+    <string name="share_string">\@highschoolhacks is awesome!</string>
     <string name="default_announcement_sender">HSHacks Staff</string>
     <string name="concierge_tweet">Hey @%s,&#160;</string>
     <string name="concierge_email">Hey %s,\n\n</string>

@@ -86,7 +86,6 @@ public class ProfilePictureCache {
                 e.printStackTrace();
             }
 
-            loadedBitmap.recycle();
             return circularBitmap;
         }
 
