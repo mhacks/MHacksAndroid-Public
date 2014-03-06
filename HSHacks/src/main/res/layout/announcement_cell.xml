@@ -11,8 +11,11 @@
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
         android:textAllCaps="true"
         android:text="@string/mhacks_staff"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="@color/custom_background_color"
-        android:padding="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp"
         android:id="@+id/announcement_sender"/>
 
 
@@ -29,6 +32,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/title_news"
             android:layout_alignParentTop="true"
