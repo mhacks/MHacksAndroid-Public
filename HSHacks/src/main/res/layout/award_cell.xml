@@ -12,6 +12,7 @@
         android:textAllCaps="true"
         android:text="@string/mhacks_staff"
         android:textColor="@color/custom_background_color"
+        android:fontFamily="sans-serif-condensed"
         android:padding="16dp"
         android:id="@+id/award_title"/>
 

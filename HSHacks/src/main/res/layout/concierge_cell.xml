@@ -24,6 +24,7 @@
             android:text="@string/title_news"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
+            android:fontFamily="sans-serif-condensed"
             android:id="@+id/concierge_name"/>
 
         <ImageView
@@ -34,18 +35,20 @@
             android:layout_marginTop="4dp"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
-            android:id="@+id/concierge_logo"/>
+            android:id="@+id/concierge_logo"
+            android:layout_alignBottom="@+id/concierge_skills" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearance"
+            android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="@string/title_news"
             android:paddingTop="2dp"
             android:paddingBottom="2dp"
             android:layout_below="@id/concierge_name"
             android:layout_alignParentLeft="true"
             android:layout_toLeftOf="@id/concierge_logo"
+            android:layout_marginRight="8dp"
             android:id="@+id/concierge_skills"/>
 
     </RelativeLayout>

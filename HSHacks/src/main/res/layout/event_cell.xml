@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/title_news"
+            android:fontFamily="sans-serif-condensed"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:id="@+id/event_name"/>
