@@ -1,6 +1,8 @@
-<merge xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".LoginActivity">
+    tools:context=".LoginActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <!-- Login progress -->
     <LinearLayout android:id="@+id/login_status"
@@ -45,14 +47,15 @@
     <!-- Login form -->
     <ScrollView
         android:id="@+id/login_form"
-        android:visibility="gone"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
 
         <LinearLayout style="@style/LoginFormContainer"
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@+id/imageView1"
@@ -103,4 +106,4 @@
         </LinearLayout>
 
     </ScrollView>
-</merge>
+</RelativeLayout>
