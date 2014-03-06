@@ -12,14 +12,12 @@
         android:textAllCaps="true"
         android:text="@string/mhacks_staff"
         android:textColor="@color/custom_background_color"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:paddingBottom="0dp"
+        android:padding="16dp"
         android:id="@+id/award_title"/>
 
     <View
         android:layout_width="fill_parent"
-        android:layout_height="1dp"
+        android:layout_height="1px"
         android:background="@android:color/darker_gray"/>
 
     <RelativeLayout
@@ -53,6 +51,6 @@
 
     <View
         android:layout_width="fill_parent"
-        android:layout_height="1dp"
+        android:layout_height="1px"
         android:background="@android:color/darker_gray"/>
 </LinearLayout>

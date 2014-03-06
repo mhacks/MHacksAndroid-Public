@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/HSHacksAndroid-Public.iml" filepath="$PROJECT_DIR$/HSHacksAndroid-Public.iml" />
       <module fileurl="file://$PROJECT_DIR$/HSHacks/libraries/facebook/facebook.iml" filepath="$PROJECT_DIR$/HSHacks/libraries/facebook/facebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/hshacks-android.iml" filepath="$PROJECT_DIR$/hshacks-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/libraries.iml" filepath="$PROJECT_DIR$/libraries/libraries.iml" />
     </modules>
   </component>
 </project>

@@ -14,7 +14,7 @@
     <string name="title_activity_register">RegisterActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Open navigation drawer</string>
-    <string name="share_string">\@highschoolhacks is awesome!</string>
+    <string name="share_string">\@highschoolhacks is awesome!\nhttp://hshacks.com</string>
     <string name="default_announcement_sender">HSHacks Staff</string>
     <string name="concierge_tweet">Hey @%s,&#160;</string>
     <string name="concierge_email">Hey %s,\n\n</string>
@@ -29,7 +29,7 @@
     <string name="action_drink">Request a Drink</string>
     <string name="action_food">Request Some Food</string>
     <string name="fooddrink_loading">Fetching your options</string>
-    <string name="action_share">Share HSHacks</string>
+    <string name="action_share">Share</string>
     <string name="days">&#160;Days</string>
     <string name="hours">&#160;Hours</string>
     <string name="minutes">&#160;Minutes</string>

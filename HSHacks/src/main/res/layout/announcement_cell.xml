@@ -12,21 +12,19 @@
         android:textAllCaps="true"
         android:text="@string/mhacks_staff"
         android:textColor="@color/custom_background_color"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:paddingBottom="1dp"
+        android:padding="16dp"
         android:id="@+id/announcement_sender"/>
 
     <View
         android:layout_width="fill_parent"
-        android:layout_height="1dp"
+        android:layout_height="1px"
         android:background="@android:color/darker_gray"/>
 
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
-        android:paddingTop="4dp"
+        android:paddingTop="8dp"
         android:paddingBottom="8dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
@@ -57,6 +55,7 @@
             android:textAppearance="?android:attr/textAppearance"
             android:text="@string/select_drink"
             android:paddingTop="2dp"
+            android:paddingBottom="2dp"
             android:layout_below="@id/announcement_title"
             android:id="@+id/announcement_body"/>
 
@@ -64,6 +63,6 @@
 
     <View
         android:layout_width="fill_parent"
-        android:layout_height="1dp"
+        android:layout_height="1px"
         android:background="@android:color/darker_gray"/>
 </LinearLayout>

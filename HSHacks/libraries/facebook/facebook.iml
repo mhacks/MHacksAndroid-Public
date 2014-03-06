@@ -31,10 +31,10 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/buildConfig/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/rs/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/res/rs/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/r/test/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/aidl/test/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/buildConfig/test/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/rs/test/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/r/test/debug" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/aidl/test/debug" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/buildConfig/test/debug" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/source/rs/test/debug" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/res/rs/test/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/debug/aidl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../libraries/facebook/src/debug/assets" isTestSource="false" />
@@ -69,7 +69,7 @@
       <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/../../../libraries/facebook/build/tmp" />
     </content>
-    <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android SDK" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="support-v4-13.0.0" level="project" />
   </component>

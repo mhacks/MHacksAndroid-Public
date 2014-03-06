@@ -2,8 +2,7 @@
               android:id="@+id/section_layout"
               android:layout_width="fill_parent"
               android:layout_height="wrap_content"
-              android:paddingTop="24dp"
-              android:paddingBottom="12dp">
+              android:padding="16dp">
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,8 +11,6 @@
         android:textAllCaps="true"
         android:text="@string/mhacks_staff"
         android:textColor="@color/custom_background_color"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
         android:id="@+id/section_header"/>
 
     <TextView

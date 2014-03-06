@@ -73,10 +73,6 @@
 
         </RelativeLayout>
 
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="5dip"
-        android:background="@drawable/drop_shadow"/>
 
     <ListView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"

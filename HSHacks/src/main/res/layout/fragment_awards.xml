@@ -10,7 +10,6 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:gravity="center"
-        android:dividerHeight="28dp"
         android:divider="@android:color/transparent"
         android:headerDividersEnabled="true">
     </ListView>
