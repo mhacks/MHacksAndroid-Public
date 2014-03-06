@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="Gradle: firebase-client-jvm-LATEST">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/HSHacks/libs/firebase-client-jvm-LATEST.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -11,10 +11,10 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
-        android:paddingTop="6dp"
+        android:paddingTop="3dp"
         android:paddingBottom="8dp"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:background="@android:color/white">
 
         <TextView
@@ -31,8 +31,7 @@
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
             android:layout_alignTop="@id/concierge_name"
-            android:layout_marginTop="4dp"
-            android:scaleType="fitCenter"
+            android:gravity="center"
             android:adjustViewBounds="true"
             android:id="@+id/concierge_logo"/>
 
@@ -41,11 +40,12 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearance"
             android:text="@string/title_news"
-            android:paddingTop="2dp"
-            android:paddingBottom="2dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="1dp"
             android:layout_below="@id/concierge_name"
             android:layout_alignParentLeft="true"
             android:layout_toLeftOf="@id/concierge_logo"
+            android:paddingRight="10dp"
             android:id="@+id/concierge_skills"/>
 
     </RelativeLayout>
