@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/chat_author_image"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_width="40dp"
         android:layout_margin="4dp"
         android:adjustViewBounds="true"  />

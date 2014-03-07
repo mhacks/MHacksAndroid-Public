@@ -59,13 +59,7 @@ public class GuestNameFragment extends DialogFragment implements TextView.OnEdit
             }
         });
         // Get an image of the user
-        iconV.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent cameraIntent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
-                startActivityForResult(cameraIntent, CAMERA_REQUEST);
-            }
-        });
+
         getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
 
         return view;
