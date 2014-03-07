@@ -3,7 +3,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
     android:layout_height="48dp"
-    android:padding="6dp">
+    android:paddingTop="8dp"
+    android:paddingLeft="8dp"
+    android:paddingBottom="8dp">
 
     <ImageView
         android:id="@+id/navigation_item_icon"
@@ -19,6 +21,7 @@
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:textStyle="bold"
+        android:textColor="#fff"
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium.Inverse"
         android:shadowColor="@android:color/black" />
 

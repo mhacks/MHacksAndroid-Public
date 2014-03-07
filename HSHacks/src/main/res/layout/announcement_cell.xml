@@ -11,30 +11,28 @@
         android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
         android:textAllCaps="true"
         android:text="@string/mhacks_staff"
+        android:fontFamily="sans-serif-condensed"
         android:textColor="@color/custom_background_color"
         android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:paddingBottom="1dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp"
         android:id="@+id/announcement_sender"/>
 
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray"/>
 
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
-        android:paddingTop="4dp"
-        android:paddingBottom="8dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="16dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:background="@android:color/white">
+        android:background="@drawable/card">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/title_news"
             android:layout_alignParentTop="true"
@@ -57,13 +55,10 @@
             android:textAppearance="?android:attr/textAppearance"
             android:text="@string/select_drink"
             android:paddingTop="2dp"
+            android:paddingBottom="2dp"
             android:layout_below="@id/announcement_title"
             android:id="@+id/announcement_body"/>
 
     </RelativeLayout>
 
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="@android:color/darker_gray"/>
 </LinearLayout>

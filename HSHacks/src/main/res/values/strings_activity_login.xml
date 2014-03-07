@@ -7,14 +7,14 @@
 
     <string name="action_sign_in_register"><b>Sign in</b> or register</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="action_sign_in_twitter">Login With Twitter</string>
-    <string name="action_sign_in_fb">Login With Facebook</string>
+    <string name="action_sign_in_twitter">Login with Twitter</string>
+    <string name="action_sign_in_fb">Login with Facebook</string>
     <string name="action_sign_in_guest">Login as Guest</string>
 
     <string name="action_forgot_password">Recover lost password</string>
 
     <string name="login_progress_signing_in">Signing in&#8230;</string>
-    <string name="login_welcome_initial">Welcome to HSHacks.</string>
+    <string name="login_welcome_initial">Welcome to HSHacks</string>
     <string name="login_welcome_post">Have a good time,&#160;</string>
 
     <string name="error_invalid_email">This email address is invalid</string>
@@ -22,5 +22,5 @@
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
     
-    <string name="error_guestname">Unable to log in as guest. Please try again.</string>
+    <string name="error_guestname">Unable to log in as a guest. Please try again.</string>
 </resources>

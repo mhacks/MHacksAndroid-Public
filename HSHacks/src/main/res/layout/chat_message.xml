@@ -3,24 +3,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:padding="3dp">
+    android:layout_height="wrap_content"
+    android:padding="4dp">
 
     <ImageView
         android:id="@+id/chat_author_image"
-        android:layout_height="wrap_content"
-        android:layout_width="0dp"
-        android:layout_weight="0.1"
-        android:layout_margin="3dp"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:layout_margin="4dp"
         android:adjustViewBounds="true"  />
 
     <LinearLayout
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginLeft="5dp"
-        android:layout_width="0dp"
-        android:layout_weight="0.9"
-        android:layout_gravity="top">
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical">
 
         <TextView
             android:id="@+id/chat_author"

@@ -6,10 +6,11 @@
 
     <!-- Login progress -->
     <LinearLayout android:id="@+id/login_status"
-        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
         android:gravity="center_horizontal"
         android:orientation="vertical">
         <ProgressBar style="?android:attr/progressBarStyleLarge"
@@ -28,15 +29,14 @@
 
     <!-- Login welcome -->
     <LinearLayout android:id="@+id/login_welcome"
-        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
         android:orientation="vertical">
         <TextView
             android:id="@+id/login_welcome_message"
-            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textAppearance="?android:attr/textAppearanceLarge"
             android:fontFamily="sans-serif-light"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -49,7 +49,6 @@
         android:id="@+id/login_form"
         android:layout_width="match_parent"
         android:layout_centerInParent="true"
-        android:visibility="gone"
         android:layout_height="wrap_content">
 
         <LinearLayout style="@style/LoginFormContainer"
