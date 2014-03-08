@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chat_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/listFooter"
+        android:transcriptMode="alwaysScroll" />
+
+    <RelativeLayout
+        android:id="@+id/listFooter"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/background_light">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cccccc"
+            android:id="@+id/view">
+        </View>
+
+        <ImageButton
+            android:id="@+id/sendButton"
+            android:layout_height="match_parent"
+            android:layout_width="50dp"
+            android:src="@drawable/ic_action_send_now"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/messageInput"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/sendButton"
+            android:lines="1"
+            android:inputType="textShortMessage"
+            android:singleLine="true"
+            android:textColor="@android:color/primary_text_light"
+            android:hint="Send a message"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:background="#fff"
+            android:layout_below="@+id/view" />
+    </RelativeLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_connection_status_throbber"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

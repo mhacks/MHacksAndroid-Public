@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/guestname_layout"
+    android:padding="16dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FF683F">
+
+    <EditText
+        android:id="@+id/guestname_text"
+        android:layout_width="match_parent"  android:layout_height="wrap_content"
+        android:inputType="text"
+        android:singleLine="true"
+        android:hint="@string/username"
+        android:imeOptions="actionDone"
+        android:padding="12dp"
+        android:background="#fff"
+        android:layout_below="@+id/userIcon"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/goUser" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/userIcon"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_user" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/goUser"
+        android:background="#fff"
+        android:src="@drawable/ic_action_send_now"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/guestname_text"
+        android:layout_alignBottom="@+id/guestname_text" />
+
+</RelativeLayout>

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="PullToRefresh">
-    <CLASSES />
-    <JAVADOC />
-    <SOURCES>
-      <root url="file://$PROJECT_DIR$/MHacks/libraries/ActionBar-PullToRefresh-master/library/src" />
-    </SOURCES>
-  </library>
-</component>

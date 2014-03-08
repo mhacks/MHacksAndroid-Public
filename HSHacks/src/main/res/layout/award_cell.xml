@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/announcement_cell_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textAllCaps="true"
+        android:text="@string/mhacks_staff"
+        android:textColor="@color/custom_background_color"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="16dp"
+        android:id="@+id/award_title"/>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingTop="8dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/card">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/title_news"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/award_prize"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearance"
+            android:text="@string/select_drink"
+            android:paddingTop="1dp"
+            android:id="@+id/award_description"
+            android:layout_below="@+id/award_prize"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

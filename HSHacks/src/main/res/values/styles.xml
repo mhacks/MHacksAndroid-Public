@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Colors-->
+    <color name="custom_theme_color">#ff3b86ff</color>
+    <color name="custom_background_color">#3D3D3D</color>
+    <color name="announcement_cell_color">#E6E6E6</color>
+    <color name="light_bg_color">#E6E6E6</color>
+    <color name="darker_bg_color">#B6B6B6</color>
+    <color name="login_button_fb">#FF3B5998</color>
+    <color name="login_button_fb_selected">#AA3B5998</color>
+    <color name="login_button_twitter">#4099FF</color>
+    <color name="login_button_twitter_selected">#AA00ACED</color>
+    <color name="login_button_guest">#FF683F</color>
+    <color name="login_button_guest_selected">#ff7752</color>
+    <color name="ios_background_color">#EBEBF1</color>
+    <color name="actionbar_dark_bg">#222222</color>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:colorBackground">@color/custom_theme_color</item>-->
+        <!--<item name="android:windowBackground">@drawable/app_background</item>-->
+        <!--<item name="android:windowBackground">@color/ios_background_color</item>-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/list_selector</item>
+        <item name="ptrHeaderStyle">@style/Widget.Custom.PtrHeader</item>
+        <!--<item name="android:actionBarItemBackground">@drawable/selectable_background_mhacksactionbarstyle</item>-->
+        <!--<item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Mhacksactionbarstyle</item>-->
+        <!--<item name="android:actionBarTabTextStyle">@style/MyActionBarTabTextStyle</item>-->
+        <!--<item name="android:actionBarStyle">@style/ActionBar.Solid.Mhacksactionbarstyle</item>-->
+        <!--<item name="android:actionModeBackground">@drawable/cab_background_top_mhacksactionbarstyle</item>-->
+        <!--<item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_mhacksactionbarstyle</item>-->
+        <!--<item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Mhacksactionbarstyle</item>-->
+        <!--<item name="android:background">@android:color/holo_orange_dark</item>-->
+    </style>
+
+    <style name="Widget.Custom.PtrHeader" parent="android:Widget">
+        <!-- Color to tint the progress bar -->
+        <item name="ptrProgressBarColor">@color/custom_theme_color</item>
+        <!-- Style of the Progress Bar. Values are either: inside or outside -->
+        <item name="ptrProgressBarStyle">inside</item>
+    </style>
+
+    <style name="HideActionBar" parent="AppTheme">
+        <item name="android:actionBarStyle">@android:style/Theme.NoTitleBar</item>
+    </style>
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="android:style/TextAppearance.Large">
+        <item name="android:textColor">@android:color/white</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#eee">
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/news_listview"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_alignParentTop="true"
+              android:gravity="center"
+              android:paddingLeft="12dp"
+              android:paddingRight="12dp"
+              android:dividerHeight="8dp"
+              android:scrollbarStyle="outsideOverlay"
+              android:divider="@android:color/transparent"
+              android:headerDividersEnabled="true">
+    </ListView>
+
+</RelativeLayout>
